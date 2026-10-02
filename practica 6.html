@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Semáforo Triage Urgencias</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 30px;">
+
+    <!-- TITULO PRINCIPAL SIN SPAN -->
+    <h1 align="center" style="margin-bottom: 30px;">
+        <font face="Times New Roman" color="#002060" size="6">Semáforo</font>
+        <font face="Impact" color="#002060" size="7">TRIAGE</font>
+        <font face="Brush Script MT" color="#002060" size="5"><i>urgencias</i></font>
+    </h1>
+
+    <!-- TABLA DE TRIAGE SIN BORDES Y CON DIFERENTES FUENTES -->
+    <table border="0" cellpadding="15" cellspacing="0" width="100%" align="center" style="text-align: center;">
+        
+        <!-- ENCABEZADO DE LA TABLA (FUENTE: VERDANA) -->
+        <tr style="font-family: Verdana, sans-serif;">
+            <th style="color: #002060; font-size: 18px;">Tipo de atención</th>
+            <th style="color: #002060; font-size: 18px;">Área de atención</th>
+            <th style="color: #002060; font-size: 18px;">Tiempo de espera</th>
+        </tr>
+
+        <!-- FILA 1: REANIMACION (FUENTE: ARIAL BLACK / ROJO) -->
+        <tr style="font-family: 'Arial Black', Gadget, sans-serif;">
+            <td style="color: #e53935; font-size: 18px; font-style: italic;">
+                Reanimación
+            </td>
+            <td style="color: #e53935; font-size: 16px;">
+                Área de reanimación
+            </td>
+            <td style="color: #e53935; font-size: 16px;">
+                Inmediato hasta 3 min
+            </td>
+        </tr>
+
+        <!-- FILA 2: EMERGENCIA (FUENTE: GEORGIA / NARANJA) -->
+        <tr style="font-family: Georgia, serif;">
+            <td style="color: #fb8c00; font-size: 20px; font-weight: bold; font-style: italic;">
+                Emergencia
+            </td>
+            <td style="color: #fb8c00; font-size: 16px;">
+                Área de reanimación
+            </td>
+            <td style="color: #fb8c00; font-size: 16px;">
+                Inmediato hasta 10 min
+            </td>
+        </tr>
+
+        <!-- FILA 3: URGENCIA (FUENTE: COURIER NEW / AMARILLO-DORADO) -->
+        <tr style="font-family: 'Courier New', Courier, monospace;">
+            <td style="color: #d4a017; font-size: 20px; font-weight: bold; font-style: italic;">
+                Urgencia
+            </td>
+            <td style="color: #d4a017; font-size: 16px;">
+                Consultorio de primer contacto
+            </td>
+            <td style="color: #d4a017; font-size: 16px;">
+                Hasta 30 min
+            </td>
+        </tr>
+
+        <!-- FILA 4: URGENCIA MENOR (FUENTE: TREBUCHET MS / VERDE) -->
+        <tr style="font-family: 'Trebuchet MS', sans-serif;">
+            <td style="color: #2e7d32; font-size: 20px; font-weight: bold; font-style: italic;">
+                Urgencia menor
+            </td>
+            <td style="color: #2e7d32; font-size: 16px;">
+                Consultorio de primer contacto o UMF
+            </td>
+            <td style="color: #2e7d32; font-size: 16px;">
+                Hasta 120 min
+            </td>
+        </tr>
+
+        <!-- FILA 5: SIN URGENCIA (FUENTE: COMIC SANS MS / AZUL) -->
+        <tr style="font-family: 'Comic Sans MS', cursive, sans-serif;">
+            <td style="color: #1565c0; font-size: 20px; font-weight: bold; font-style: italic;">
+                Sin urgencia
+            </td>
+            <td style="color: #1565c0; font-size: 16px;">
+                Consultorio de primer contacto o UMF
+            </td>
+            <td style="color: #1565c0; font-size: 16px;">
+                Hasta 180 min
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
